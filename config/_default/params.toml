@@ -1,0 +1,90 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Santanu Banerjee"
+titleSeparator = ""
+titleAddition = ""
+description = ""
+
+## Open Graph
+images = [""]
+ogLocale = "en_US"
+domainTLD = "iamsantanubanerjee.github.io"
+titleHome = "Santanu Banerjee"
+
+## Twitter Cards
+twitterSite = ""
+twitterCreator = ""
+
+## JSON-LD
+schemaType = "Person"
+# schemaType = "Organization"
+schemaName = "Santanu Banerjee"
+schemaAuthor = "Santanu Banerjee"
+schemaAuthorTwitter = ""
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/iamsantanubanerjee/"
+schemaAuthorGitHub = "https://github.com/iamsantanubanerjee"
+schemaLocale = "en-US"
+schemaLogo = ""
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = ""
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = ""
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/iamsantanubanerjee/iamsantanubanerjee.github.io"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "Copyright &copy; 2022 Santanu Banerjee. All Rights Reserved."
+
+# Feed
+copyRight = "Copyright (c) 2022 Santanu Banerjee"
+
+# Alert
+alert = false
+alertDismissable = true
+alertText = ""
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+docsRepo = "https://github.com/iamsantanubanerjee/iamsantanubanerjee.github.io"
+docsRepoBranch = "main"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = true
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
