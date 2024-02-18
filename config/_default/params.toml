@@ -25,7 +25,7 @@ mainSections = ["docs"]
   navBarButtonText = "Get started"
 
   # FlexSearch
-  flexSearch = false # true (default) or false
+  flexSearch = true # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
@@ -44,7 +44,7 @@ mainSections = ["docs"]
   bootstrapJavascript = false # false (default) or true
 
   # Nav
-  sectionNav = [] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+  sectionNav = ["statistics", "machine-learning"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
   breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
@@ -90,7 +90,7 @@ mainSections = ["docs"]
   [doks.menu]
     [doks.menu.section]
       auto = true # true (default) or false
-      collapsibleSidebar = true # true (default) or false
+      collapsibleSidebar = false # true (default) or false
 
 # Debug
 [render_hooks.image]
