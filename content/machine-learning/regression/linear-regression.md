@@ -31,6 +31,8 @@ Imagine we have the following dataset:
 
 "Placeholder for lr png"
 
+![Scatter plot of the dataset](/content/machine-learning/regression/assets/01-linear-regression.png)
+
 ## Overview of Linear Regression
 
 In short, with linear regression, we try to **best fit** a **linear line** to the dataset, so that we can use that line to predict the output whenever new data comes in, the best way possible.
