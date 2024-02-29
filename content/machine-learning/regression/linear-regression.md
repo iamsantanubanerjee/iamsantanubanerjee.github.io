@@ -29,9 +29,7 @@ Imagine we have the following dataset:
 |  4  |  7  |
 |  5  |  10 |
 
-"Placeholder for lr png"
-
-![Scatter plot of the dataset](/content/machine-learning/regression/assets/01-linear-regression.png)
+![Scatter plot of the dataset](01-linear-regression.png)
 
 ## Overview of Linear Regression
 
