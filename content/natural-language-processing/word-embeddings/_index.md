@@ -1,5 +1,5 @@
 ---
-title: "Word Embeddings"
+title: "2. Word Embeddings"
 description: ""
 summary: ""
 date: 2024-02-29T19:19:19+05:30

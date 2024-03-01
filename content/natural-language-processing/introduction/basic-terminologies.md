@@ -17,6 +17,14 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+## Corpus
+
+## Document
+
+## Vocabulary
+
+## Words
+
 ## Tokenization
 
 **Tokenization** is the process of breaking sentences into words.
@@ -94,7 +102,7 @@ For example, the words "Historical" and "History" will give the output as "histo
 
 **Disadvantages**
 
-* Stemming removes the meaning of the word
+* Stemming might remove the meaning of the word
 
 **Example Code**
 
@@ -128,7 +136,7 @@ print(stemmed_word2)
 
 **Disadvantages**
 
-* Computationally more expensive than Stemming (has it's own library to come up with the base/root word)
+* Computationally more expensive than Stemming - needs to have it's own corpus to come up with the base/root word
 
 **Example Code**
 ```python
@@ -152,9 +160,18 @@ print(lemmatized_word2)
  History
 ```
 
+---
+> **Note**
+
+How to choose between stemming and lemmatization?
+* Stemming can be used in cases where the output does not need to have meaningful words/sentences/paragraphs, such as Spam Classification, Review Classification, etc.
+* Lemmatization can be used in cases where meaningful words/sentences/paragraphs need to be generated as output, such as Language Translation, ChatBots, Text Summarization, etc.
+
+---
+
 ## Word embeddings
 
-It is a technique where individual words are represented as real-valued vectors in a lower-dimensional space and captures inter-word semantics.
+Word embedding is a technique where individual words are represented as real-valued vectors in a lower-dimensional space and captures inter-word semantics.
 
 ### Types of word embeddings
 
