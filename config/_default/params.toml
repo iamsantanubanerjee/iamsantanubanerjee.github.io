@@ -1,13 +1,13 @@
 # Hugo
 title = "Santanu Banerjee"
-description = ""
+description = "Personal Website"
 images = ["cover.png"]
 
 # mainSections
 mainSections = ["docs"]
 
 [social]
-  twitter = "getdoks"
+  twitter = ""
 
 # Doks (@hyas/doks-core)
 [doks]
