@@ -1,5 +1,5 @@
 ---
-title: "Bag of Words"
+title: "Bag of Words and Ngrams"
 description: ""
 summary: ""
 date: 2024-02-29T20:07:37+05:30
@@ -8,7 +8,7 @@ draft: false
 menu:
   statistics:
     parent: ""
-    identifier: "bag-of-words"
+    identifier: "bag-of-words-and-ngrams"
 weight: 4
 toc: true
 seo:
@@ -72,7 +72,7 @@ D1 -> [1, 1, 1, 0, 0, 0, 0]
 D2 -> [0, 1, 1, 1, 1, 0, 0]  
 D3 -> [0, 1, 1, 0, 0, 1, 1]  
 
-## Binary Bag of Words (BOW)
+### Binary Bag of Words (BOW)
 
 Suppose we have a slightly modified corpus and our D1 as one more word 'blue' in it:
 
