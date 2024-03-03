@@ -220,6 +220,7 @@ The other bigrams are not here due to lack of space :(
 ---
 
 And our vectors for each document will be:
+
 D1 -> [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]  
 D2 -> [0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0]  
 D3 -> [0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1]
