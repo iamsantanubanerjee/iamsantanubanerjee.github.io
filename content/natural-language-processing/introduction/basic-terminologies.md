@@ -3,7 +3,7 @@ title: "Basic Terminologies"
 description: ""
 summary: ""
 date: 2024-02-29T19:21:13+05:30
-lastmod: 2024-02-29T19:21:13+05:30
+lastmod: 2024-03-03T12:16:48+05:30
 draft: false
 menu:
   statistics:
@@ -37,7 +37,8 @@ The above when tokenized using the [Natural Language Toolkit (NLTK)](https://www
 
 > ['I', 'have', 'crossed', 'oceans', 'of', 'time', 'to', 'find', 'you', '.']
 
-**Example Code**
+### Example Code
+
 ```python
 import nltk
 from nltk.tokenize import word_tokenize
@@ -52,6 +53,7 @@ print("Tokenized Sentence:", tokens)
 ```
 
 **Output**
+
 ```
  Original Sentence: I have crossed oceans of time to find you.
  Tokenized Sentence: ['I', 'have', 'crossed', 'oceans', 'of', 'time', 'to', 'find', 'you', '.']
@@ -65,7 +67,8 @@ From our previous [example](#tokenization), the tokens we would be left with aft
 
 > ['crossed', 'oceans', 'time', 'find', '.']
 
-**Example Code**
+### Example Code
+
 ```python
 import nltk
 from nltk.tokenize import word_tokenize
@@ -85,6 +88,7 @@ print("Tokens after removing stopwords:", filtered_tokens)
 ```
 
 **Output**
+
 ```
  Original Sentence: I have crossed oceans of time to find you.
  Tokens after removing stopwords: ['crossed', 'oceans', 'time', 'find', '.']
@@ -96,15 +100,15 @@ print("Tokens after removing stopwords:", filtered_tokens)
 
 For example, the words "Historical" and "History" will give the output as "histor" and "histori" respectively, thus, losing their meaning.
 
-**Advantages**
+### Advantages
 
 * Stemming is really fast
 
-**Disadvantages**
+### Disadvantages
 
 * Stemming might remove the meaning of the word
 
-**Example Code**
+### Example Code
 
 ```python
 import nltk
@@ -121,6 +125,7 @@ print(stemmed_word2)
 ```
 
 **Output**
+
 ```
  histor
  histori
@@ -130,15 +135,16 @@ print(stemmed_word2)
 
 **Lemmatization** considers the context and converts the word to its meaningful base form, which is called Lemma.
 
-**Advantages**
+ ### Advantages
 
 * Retains meaning of words
 
-**Disadvantages**
+### Disadvantages
 
 * Computationally more expensive than Stemming - needs to have it's own corpus to come up with the base/root word
 
-**Example Code**
+### Example Code
+
 ```python
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -155,6 +161,7 @@ print(lemmatized_word2)
 ```
 
 **Output**
+
 ```
  Historical
  History
@@ -171,10 +178,10 @@ How to choose between stemming and lemmatization?
 
 ## Word embeddings
 
-Word embedding is a technique where individual words are represented as real-valued vectors in a lower-dimensional space and captures inter-word semantics.
+Everything boils down to numbers and tensors when it comes to developing AI. This is where **word embeddings** come into play. It is a technique where individual words are represented as real-valued vectors in a lower-dimensional space and captures inter-word semantics.
 
 ### Types of word embeddings
 
-Based on the technique used, word embeddings can be divided into two parts:
+Word embeddings can be divided mainly into two parts - embedding the words based on:
 1. **Count or frequency** - This includes techniques such as One-Hot Encoding, Bag of Words and TF-IDF
 2. **Deep Learning Trained Models** - Word2Vec (CBOW, Skipgram)
