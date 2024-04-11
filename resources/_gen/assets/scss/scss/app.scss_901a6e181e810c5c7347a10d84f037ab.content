@@ -14396,5 +14396,17 @@ body {
   background-color: {{ site.Params.doks.backGround }};
 }
 */
+.projects.list .card, .projects.single .card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s; }
+
+.projects.list .content .card:hover,
+.projects.single .content .card:hover {
+  transform: scale(1.025); }
+
+.projects.list .content .card-body,
+.projects.single .content .card-body {
+  padding: 0 2rem 1rem; }
 
 /*# sourceMappingURL=main.css.map */

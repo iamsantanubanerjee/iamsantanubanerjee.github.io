@@ -4,6 +4,11 @@
   url = "https://github.com/iamsantanubanerjee"
   weight = 10
 
+[[main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
+
 # [[main]]
 #   name = "Statistics"
 #   url = "/statistics/introduction/what-is-statistics/"
