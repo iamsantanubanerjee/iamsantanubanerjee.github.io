@@ -8,8 +8,8 @@ draft: false
 type: blog
 weight: 50
 categories: []
-tags: []
-contributors: []
+tags: [Python, SQL]
+contributors: [Python]
 pinned: false
 homepage: false
 seo:
@@ -18,3 +18,4 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+## HELLO
