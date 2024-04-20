@@ -35,17 +35,34 @@
   {{ end -}}
   {{ if eq $.Site.Language.LanguageName "English" }}
 
-  <section class="section section-md section-features border-bottom border-dark">
+  <section class="section container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 img-fluid">
+          <img src="about_me.svg" width="300" height="400" style="margin-bottom: 30px;"/>
+      </div>
+      <div class="col-lg-8">
+          <h2 class="mt-0">About Me</h2>
+          <p>Data scientist with 2+ years of experience in applying advanced machine learning, deep learning and generative ai models to extract insights from complex datasets. Possesses a strong foundation in mathematics and a demonstrated aptitude for cutting-edge technologies through internships focused on quantum computing and quantum machine learning.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-md section-features">
     <div class="container">
-      <div class="row justify-content-center text-center gap-4 px-4">
+      <div class="row justify-content-center text-center">
         <div class="row justify-content-center text-center">
           My Tech Stack:
         </div>
-        <div class="col-lg-3 border rounded-1 bg-opacity-25">
-          <img src="python.svg" alt="Python Logo" width="200" height="300" style="margin-top: 20px; margin-bottom: 10px; margin-left: 10px;"/>
+        <div class="col-lg-3 bg-opacity-25">
+          <img src="python.svg" alt="Python Logo" width="190" height="290" style="margin-top: 23px; margin-bottom: 10px;"/>
         </div>
-        <div class="col-lg-3 border rounded-1 bg-opacity-25">
-          <img src="langchain-dark.png" alt="Langchain Logo" width="200" height="300" style="margin-top: 28px; margin-bottom: 28px;"/>
+        <div class="tech-logo col-lg-3 bg-opacity-25">
+          <img class="light" src="langchain-light.png" alt="Langchain Logo" width="200" height="300" style="margin-top: 30px; margin-bottom: 28px;"/>
+          <img class="dark" src="langchain-dark.png" alt="Langchain Logo" width="200" height="300" style="margin-top: 30px; margin-bottom: 28px;"/>
+        </div>
+        <div class="tech-logo col-lg-3 bg-opacity-25">
+          <img class="light" src="pytorch-light.svg" alt="PyTorch Logo" width="140" height="240" style="margin-top: 30px; margin-bottom: 28px;"/>
+          <img class="dark" src="pytorch-dark.svg" alt="PyTorch Logo" width="160" height="260" style="margin-top: 30px; margin-bottom: 28px;"/>
         </div>
         <!-- <div class="col-lg-5 border rounded-1 bg-light bg-opacity-25">
           <h2 class="h4">Bot Studio</h2>

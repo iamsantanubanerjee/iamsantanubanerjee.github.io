@@ -14,3 +14,9 @@
   .projects.single .content .card-body {
     padding: 0 2rem 1rem;
   }
+
+[data-bs-theme="light"] .tech-logo img { display: none; }
+[data-bs-theme="light"] .tech-logo img.light { display: inline-block; }
+
+[data-bs-theme="dark"] .tech-logo img { display: none; }
+[data-bs-theme="dark"] .tech-logo img.dark { display: inline-block; }
