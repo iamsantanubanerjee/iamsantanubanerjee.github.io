@@ -1,12 +1,12 @@
 ---
-title: "1. Introduction"
+title: "Introduction"
 description: ""
 summary: ""
 date: 2024-02-28T22:49:05+05:30
 lastmod: 2024-02-28T22:49:05+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "introduction"
 weight: 10

@@ -6,7 +6,7 @@ date: 2024-02-29T20:07:58+05:30
 lastmod: 2024-02-29T20:07:58+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "word2vec"
 weight: 6

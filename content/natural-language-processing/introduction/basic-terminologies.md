@@ -6,7 +6,7 @@ date: 2024-02-29T19:21:13+05:30
 lastmod: 2024-03-03T12:16:48+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "basic-terminologies"
 weight: 2

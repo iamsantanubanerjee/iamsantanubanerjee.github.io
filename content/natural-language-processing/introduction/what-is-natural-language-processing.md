@@ -6,7 +6,7 @@ date: 2024-02-28T22:52:22+05:30
 lastmod: 2024-02-28T22:52:22+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "what-is-natural-language-processing"
 weight: 1

@@ -34,11 +34,11 @@
 #   parent = "Digital Codices"
 #   weight = 30
 
-# [[main]]
-#   name = "Natural Language Processing"
-#   url = "/natural-language-processing/introduction/what-is-natural-language-processing/"
-#   parent = "Digital Codices"
-#   weight = 40
+[[main]]
+  name = "Natural Language Processing"
+  url = "/natural-language-processing/introduction/what-is-natural-language-processing/"
+  parent = "Digital Codices"
+  weight = 40
 
 # [[main]]
 #   name = "Quantum Computing"

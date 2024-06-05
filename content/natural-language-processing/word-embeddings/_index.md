@@ -1,12 +1,12 @@
 ---
-title: "2. Word Embeddings"
+title: "Word Embeddings"
 description: ""
 summary: ""
 date: 2024-02-29T19:19:19+05:30
 lastmod: 2024-02-29T19:19:19+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "word-embeddings"
 weight: 20

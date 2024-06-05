@@ -6,7 +6,7 @@ date: 2024-02-29T20:07:28+05:30
 lastmod: 2024-03-03T12:16:48+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "one-hot-encoding"
 weight: 3

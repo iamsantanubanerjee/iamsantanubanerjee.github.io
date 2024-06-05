@@ -6,7 +6,7 @@ date: 2024-02-28T22:45:47+05:30
 lastmod: 2024-02-28T22:45:47+05:30
 draft: false
 menu:
-  statistics:
+  natural-language-processing:
     parent: ""
     identifier: "natural-language-processing"
 weight: 100
