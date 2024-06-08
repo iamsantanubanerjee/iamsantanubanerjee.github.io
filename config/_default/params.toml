@@ -151,4 +151,4 @@ mainSections = ["docs"]
 
 # Add-ons
 [add_ons]
-  plausibleDomain = "example.com" # "example.com" (default)
+  plausibleDomain = "plausible.iamsantanubanerjee.com" # "example.com" (default)
