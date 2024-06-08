@@ -148,7 +148,3 @@ mainSections = ["docs"]
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
     product = [] # Product sections
-
-# Add-ons
-[add_ons]
-  plausibleDomain = "plausible.iamsantanubanerjee.com" # "example.com" (default)
